@@ -119,7 +119,7 @@ with col2:
     st.markdown("""
         <style>
         .chat-bubble-user {
-            background-color: #DCF8C6;
+            background-color: #008000;
             border-radius: 10px;
             padding: 8px 12px;
             margin-bottom: 5px;
@@ -180,4 +180,5 @@ if st.session_state.mostrar_reciclaje:
     """)
 
 st.caption("Desarrollado por Moira Machado · Proyecto LEKT | MOT 2025")
+
 
