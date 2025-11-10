@@ -126,7 +126,7 @@ with col2:
             text-align: right;
         }
         .chat-bubble-bot {
-            background-color: #E8F0FE;
+            background-color: 	#90EE90;
             border-radius: 10px;
             padding: 8px 12px;
             margin-bottom: 5px;
@@ -180,5 +180,6 @@ if st.session_state.mostrar_reciclaje:
     """)
 
 st.caption("Desarrollado por Moira Machado · Proyecto LEKT | MOT 2025")
+
 
 
