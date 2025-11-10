@@ -84,7 +84,7 @@ col1, col2 = st.columns([2, 1])
 
 # ----------- COLUMNA IZQUIERDA: FORMULARIO -----------
 with col1:
-    st.subheader("🧮 Calculá la huella de carbono")
+    st.subheader("Calculá la huella de carbono")
     with st.form("form_evento"):
         participantes = st.number_input("Participantes", 1, 10000, 300)
         movilidad_auto = st.slider("En auto (%)", 0.0, 1.0, 0.5)
@@ -115,7 +115,7 @@ with col1:
 
 # ----------- COLUMNA DERECHA: CHAT ESTILO WHATSAPP -----------
 with col2:
-    st.subheader("💬 Chat Ambiental (IA en tiempo real)")
+    st.subheader("Chat Ambiental")
     st.markdown("""
         <style>
         .chat-bubble-user {
@@ -162,21 +162,22 @@ if st.session_state.mostrar_reciclaje:
     st.markdown("---")
     st.header("♻️ Centro de Reciclaje y Reutilización")
     st.markdown("""
-    ### 🌿 Reutilización creativa
+    ### Reutilización creativa
     - Fundí medallas para nuevas ediciones o souvenires.
     - Transformá remeras viejas en bolsas o paños.
     - Reutilizá carteles como cobertores o manteles.
     - Usá botellas PET para fabricar señalética o macetas.
 
-    ### 🗑️ Separación inteligente
-    - 📦 **Reciclables:** plástico, papel, aluminio.
-    - 🌱 **Compostables:** cáscaras, restos de frutas.
-    - 🚯 **No reciclables:** lo demás (buscar reducirlos).
+    ### Separación inteligente
+    - **Reciclables:** plástico, papel, aluminio.
+    - **Compostables:** cáscaras, restos de frutas.
+    - **No reciclables:** lo demás (buscar reducirlos).
 
-    ### 💡 Economía circular
+    ### Economía circular
     - Doná materiales a escuelas o talleres locales.
     - Organizá concursos de diseño con residuos del evento.
     - Mostrá tus resultados en redes y educá a la comunidad.
     """)
 
 st.caption("Desarrollado por Moira Machado · Proyecto LEKT | MOT 2025")
+
