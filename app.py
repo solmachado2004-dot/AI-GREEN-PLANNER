@@ -128,7 +128,7 @@ col1, col2 = st.columns([2, 1])
 
 # ----------- COLUMNA IZQUIERDA: CÁLCULO Y RESULTADOS -----------
 with col1:
-    st.subheader("🧮 Calculá la huella de carbono")
+    st.subheader(" Calculá la huella de carbono")
     with st.form("form_evento"):
         participantes = st.number_input("Participantes", 1, 10000, 300)
         movilidad_auto = st.slider("En auto (%)", 0.0, 1.0, 0.5)
@@ -206,14 +206,14 @@ with col2:
     st.markdown("""
         <style>
         .chat-bubble-user {
-            background-color: #DCF8C6;
+            background-color: #008000 ;
             border-radius: 10px;
             padding: 8px 12px;
             margin-bottom: 5px;
             text-align: right;
         }
         .chat-bubble-bot {
-            background-color: #E8F0FE;
+            background-color: #228B22 ;
             border-radius: 10px;
             padding: 8px 12px;
             margin-bottom: 5px;
@@ -245,3 +245,4 @@ with col2:
         st.warning("Modo demo sin conexión a OpenAI")
 
 st.caption("Desarrollado por Moira Machado · Proyecto LEKT | MOT 2025")
+
