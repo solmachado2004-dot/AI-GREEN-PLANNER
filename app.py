@@ -202,7 +202,7 @@ with col1:
 
 # ----------- COLUMNA DERECHA: CHAT ----------- 
 with col2:
-    st.subheader("💬 Chat Ambiental (IA en tiempo real)")
+    st.subheader("Chat Ambiental ")
     st.markdown("""
         <style>
         .chat-bubble-user {
@@ -245,4 +245,5 @@ with col2:
         st.warning("Modo demo sin conexión a OpenAI")
 
 st.caption("Desarrollado por Moira Machado · Proyecto LEKT | MOT 2025")
+
 
